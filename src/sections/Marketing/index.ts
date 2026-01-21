@@ -1,0 +1,6 @@
+export { default as Home } from './Home'
+export { default as Platform } from './Platform'
+export { default as Solutions } from './Solutions'
+export { default as Features } from './Features'
+export { default as Payments } from './Payments'
+export { default as Contact } from './Contact'
