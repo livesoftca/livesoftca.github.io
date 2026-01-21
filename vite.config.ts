@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 const ENV_PREFIX = ['VITE_']
 
 export default defineConfig(() => ({
+  base: '/livesoft-web/',
   envPrefix: ENV_PREFIX,
   server: { port: 4001, host: false },
   assetsInclude: ["**/*.glb"],
