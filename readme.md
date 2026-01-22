@@ -1,4 +1,4 @@
-# Gamba Platform
+# LiveSoft Platform
 
 > This is a mirrored repo from the [Gamba monorepo](https://github.com/gamba-labs/gamba/tree/main/apps/demo).
 
@@ -33,16 +33,11 @@ Simply fork the repository, provide your own Solana address, and begin collectin
 [NextJS version by BankkRoll](https://github.com/BankkRoll/Gamba-V2-Next.js)
 
 # Self note:
-- To build and sync to server: 
+- To build: 
 ```
 pnpm run build
-rsync -avz --delete dist/ username@ip_address:/var/www/html/dist/
 ```
-- To run locally:
+- To run locally and see realtime changes:
 ```
 pnpm run dev
-```
-- To pull files from server:
-```
-rsync -avz -e ssh username@ip_address:/home/username/file_path ./
 ```
